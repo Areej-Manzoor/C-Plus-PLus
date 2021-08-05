@@ -7,7 +7,7 @@ int fib(int n)
 {
     if(n<2)
     {
-        return 1;
+        return n;
     }
 return fib(n-2)+fib(n-1);
 
@@ -19,9 +19,9 @@ return fib(n-2)+fib(n-1);
 //as fib(1) where n=1 and 1<2 so it'll return the same number which is 1
 //1+fib(2-2)+fib(2-1)
 //1+fib(0)+fib(1)
-//as fib(0) where n=0 and 0<2 so it'll return the same number which is 1
+//as fib(0) where n=0 and 0<2 so it'll return the same number which is 0
 // same goes with fib(1)
-//so 1+1+1=3
+//so 1+0+1=2
 }
 
 int main()
