@@ -2,10 +2,9 @@
 using namespace std;
 // fabonacci series using iteration
 int main() {
-    int n, t1 = 0, t2 = 1, nextTerm = 0;
+    int n=10, t1 = 0, t2 = 1, nextTerm = 0;
 
-    cout << "Enter the number of terms: ";
-    cin >> n;
+   
 
     cout << "Fibonacci Series: ";
 
