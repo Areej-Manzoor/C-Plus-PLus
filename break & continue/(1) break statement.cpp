@@ -1,10 +1,10 @@
 #include <iostream>
 using namespace std;
-// fabonacci series using iteration
+
 int main() {
 int i,n=3;
 
-// n=3; , sp the loop should display each statement until it reaches the iteration no 3 but in this case when the break statement is executed the control moves outside the body of the loop or breaks the loop and the statements after thebreak are skipped and the statements after the loop body are executed
+// n=3; , so the loop should display each statement until it reaches the iteration no 3 but in this case when the break statement is executed the control moves outside the body of the loop or breaks the loop and the statements after thebreak are skipped and the statements after the loop body are executed
 
 // break statement in loop without condition
 cout<<"\t\tBreak Statement In Loop Without Condition"<<endl<<endl;
