@@ -1,13 +1,17 @@
 #include <iostream>
-#include<cstring>
+
 using namespace std;
+
+// A parameter can be passed to a function using pointers.The address of the actual parameter is passed to the formal parameter if the formal parameter is a pointer . In this example of "Pass By reference" the formal parameters are  aliases of actual parameters
+
+// here in swap function both formal parameters accepts memory addresses of actual parameters 
 
 void swap(int *a,int *b)
 {
-    int temp;
-    temp=*a;
-    *a=*b;
-    *b=temp;
+    int temp;   
+    temp=*a;      // here temp=value at address of a
+    *a=*b;       // here value at address of a=value at address of b
+    *b=temp;    //here value at address of b =temp 
 }
 int main()
 {
