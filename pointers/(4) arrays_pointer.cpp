@@ -5,7 +5,7 @@ using namespace std;
 
 // Array is a  collection of items of similar type in a contigous memory locations.If we have to the marks of 500 students then to define an array of 500 indexes is better than defining 500 variables.
 
-// The memory address in arrays is same as the name of array and to store it to pointer does not need reference operator
+// The memory address of arrays is same as the name of array and to store it to pointer does not need reference operator(&)
 // For Example a simple variable's address is stored as 
 // int *ptr=&a;
 // But for arrays it is not required
