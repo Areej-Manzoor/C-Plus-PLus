@@ -2,7 +2,7 @@
 
 using namespace std;
 
-// A parameter can be passed to a function using pointers.The address of the actual parameter is passed to the formal parameter if the formal parameter is a pointer . In this example of "Pass By reference" the formal parameters are  aliases of actual parameters
+// A parameter can be passed to a function using pointers.The address of the actual parameter is passed to the formal parameter if the formal parameter is a pointer . In this example of "Pass By reference" the formal parameters are  aliases of actual parameters.The change in the value of formal parametr does not change the values of actual parameter while in "Pass by Reference" the change in both either formal or actual paramters change the values in both
 
 // here in swap function both formal parameters accepts memory addresses of actual parameters 
 
