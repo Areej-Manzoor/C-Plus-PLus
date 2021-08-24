@@ -2,6 +2,10 @@
 
 using namespace std;
 
+// A structure is a collection of multiple data types that can be reffered as  single name.The data items in structure are called memebers,fields or elements.Used to join simple variable to form a complex  variables.
+// The structure members are accessed using "Member Access Specifier (.) by creating a structure type varible before".
+// A simple variable can store a single variable at a time while a structure variable can store different values at same time.
+
 struct Student
 {
  string name;
@@ -10,7 +14,7 @@ struct Student
 
 int main()
 {
-    Student s;
+    Student s; // here "s" is a structure varible
   
   cout<<"\t\t\t Student Entery"<<endl<<endl;
   
