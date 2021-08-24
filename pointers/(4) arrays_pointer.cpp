@@ -11,6 +11,11 @@ using namespace std;
 // But for arrays it is not required
 // int int marks[4]={32,99,56,88}; int *ptr=marks;
 
+// The address of first element can be assigned to the pointyer.The remaining element s can be accessed thro=ugh the first element by keeping an incremenet as they are stored in consective memory location.
+
+// int *ptr=marks assigns the address of first elemnt of array
+// ptr++ it access the next elent of array and same for remainig elements
+
 
 int main()
 {

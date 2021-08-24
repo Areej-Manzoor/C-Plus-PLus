@@ -9,6 +9,7 @@ int main()
     // Both the pointer and string must be of same data type other wise it'll throw a type conversion error like this 
     // error: cannot convert ‘char [20]’ to ‘int*’ in assignment
     
+// The pointer displays the value of each element in array until a null character \0 is found.
     //https://stackoverflow.com/questions/7949761/c-error-void-is-not-a-pointer-to-object-type
     
     
