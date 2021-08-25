@@ -1,0 +1,7 @@
+Enumeration is a collection of named constants. Similar to integral numbers. But represented with names.
+
+Structures is compound which can store multiple related data (fields) with different data types to represent an object.
+
+They are unrelated.  A structure is a way to store data. An enumeration is fixed data values.
+
+Enumerated types ( enum ) are quite different from struct and unions. An enumerated type is a data type where every possible value is defined as a symbolic constant. ... Structures do not define lists of constants. A structure can contain enumerations, but an enumeration cannot contain structures.
