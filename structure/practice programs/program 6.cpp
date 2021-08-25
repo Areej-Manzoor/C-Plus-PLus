@@ -19,16 +19,23 @@ int main()
 {
     Student s[3];
     int age_counter=0,rno_counter=0;
-    for(int i=0;i<11;i++)
+    for(int i=0;i<2;i++)
     {
-        cout<<"Student "<<i<<endl;
+        cout<<"Student "<<i+1<<endl;
         cout<<"Enter Age between 11 to 14 "<<endl;
         cout<<"Enter student name :";
         cin>>s[i].name;
+         age:
         cout<<"Enter student age :";
-        cin>>s[i].age;
+        cin>>s[i].age;  
+        if(s[i].age<11 || s[i].age>14)
+        {
+        cout<<"Age Must be between 11 to 14,Enter age again "<<endl;
+         goto age;
+        }
          cout<<"Enter student roll no :";
         cin>>s[i].rno;
+        cout<<endl;
     
         
     }
@@ -38,7 +45,7 @@ int main()
     // 1 - Write a function to print the names of all the students having age 14.
     
     cout<<"Details of students between having age 14 "<<endl<<endl;
-     for(int i=0;i<11;i++)
+     for(int i=0;i<2;i++)
     {
       if(s[i].age==14)
       {
@@ -58,8 +65,8 @@ int main()
     
     // 2 - Write another function to print the names of all the students having even roll no.
     
-     cout<<"Details of students having even roll no's "<<endl<<endl;
-     for(int i=0;i<11;i++)
+     cout<<endl<<"Details of students having even roll no's "<<endl<<endl;
+     for(int i=0;i<2;i++)
     {
       if((s[i].rno%2)==0)
       {
@@ -80,12 +87,18 @@ int main()
     // 3 - Write another function to display the details of the student whose roll no is given (i.e. roll no. entered by the user).
     
       cout<<"Details of students whose roll no is given (i.e. roll no. entered by the user) "<<endl<<endl;
-     for(int i=0;i<11;i++)
+      int find;
+      cout<<"Enter a rno :";
+      cin>>find;
+     for(int i=0;i<2;i++)
     {
-          cout<<"Student : "<<i+1<<endl;
+        if(s[i].rno==find)
+        {
+           cout<<"Student : "<<i+1<<endl;
           cout<<"Student Name : "<<s[i].name<<endl;
           cout<<"Student Roll No : "<<s[i].rno<<endl;
-          cout<<"Subject Age : "<<s[i].age<<endl;
+          cout<<"Subject Age : "<<s[i].age<<endl;   
+        }    
   
     }
   
