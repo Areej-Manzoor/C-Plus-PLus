@@ -6,7 +6,7 @@ using namespace std;
 
 // Enumerations are used to create new data types,contains a list of values,Each value has unique number starts from 0.
 // Enumeration is a collection of named constants. Similar to integral numbers. But represented with names.
-
+// enumeration are defined with "enum keyword"
 enum year
 {january,february,march,april,may,june,july,agust,september,october,november,december};
 
