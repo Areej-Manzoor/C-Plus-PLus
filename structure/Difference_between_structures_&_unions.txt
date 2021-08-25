@@ -1,0 +1,13 @@
+KEY DIFFERENCES:
+
+Every member within structure is assigned a unique memory location while in union a memory location is shared by all the data members.
+
+Changing the value of one data member will not affect other data members in structure whereas changing the value of one data member will change the value of other data members in union.
+
+Structure is mainly used for storing various data types while union is mainly used for storing one of the many data types.
+
+In structure, you can retrieve any member at a time on the other hand in union, you can access one member at a time.
+
+Structure supports flexible array while union does not support a flexible array.
+
+Structure supports flexible array. Union does not support a flexible array.
