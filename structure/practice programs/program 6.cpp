@@ -17,9 +17,9 @@ struct Student
 
 int main()
 {
-    Student s[3];
+    Student s[11]; // here 11 records can be entered which are more than 10
     int age_counter=0,rno_counter=0;
-    for(int i=0;i<2;i++)
+    for(int i=0;i<11;i++)
     {
         cout<<"Student "<<i+1<<endl;
         cout<<"Enter Age between 11 to 14 "<<endl;
@@ -45,7 +45,7 @@ int main()
     // 1 - Write a function to print the names of all the students having age 14.
     
     cout<<"Details of students between having age 14 "<<endl<<endl;
-     for(int i=0;i<2;i++)
+     for(int i=0;i<11;i++)
     {
       if(s[i].age==14)
       {
@@ -66,7 +66,7 @@ int main()
     // 2 - Write another function to print the names of all the students having even roll no.
     
      cout<<endl<<"Details of students having even roll no's "<<endl<<endl;
-     for(int i=0;i<2;i++)
+     for(int i=0;i<11;i++)
     {
       if((s[i].rno%2)==0)
       {
@@ -90,7 +90,7 @@ int main()
       int find;
       cout<<"Enter a rno :";
       cin>>find;
-     for(int i=0;i<2;i++)
+     for(int i=0;i<11;i++)
     {
         if(s[i].rno==find)
         {
