@@ -19,7 +19,7 @@ int main()
 {
     Student s[3];
     int age_counter=0,rno_counter=0;
-    for(int i=0;i<3;i++)
+    for(int i=0;i<11;i++)
     {
         cout<<"Student "<<i<<endl;
         cout<<"Enter Age between 11 to 14 "<<endl;
@@ -38,7 +38,7 @@ int main()
     // 1 - Write a function to print the names of all the students having age 14.
     
     cout<<"Details of students between having age 14 "<<endl<<endl;
-     for(int i=0;i<3;i++)
+     for(int i=0;i<11;i++)
     {
       if(s[i].age==14)
       {
@@ -59,7 +59,7 @@ int main()
     // 2 - Write another function to print the names of all the students having even roll no.
     
      cout<<"Details of students having even roll no's "<<endl<<endl;
-     for(int i=0;i<3;i++)
+     for(int i=0;i<11;i++)
     {
       if((s[i].rno%2)==0)
       {
@@ -80,7 +80,7 @@ int main()
     // 3 - Write another function to display the details of the student whose roll no is given (i.e. roll no. entered by the user).
     
       cout<<"Details of students whose roll no is given (i.e. roll no. entered by the user) "<<endl<<endl;
-     for(int i=0;i<3;i++)
+     for(int i=0;i<11;i++)
     {
           cout<<"Student : "<<i+1<<endl;
           cout<<"Student Name : "<<s[i].name<<endl;
