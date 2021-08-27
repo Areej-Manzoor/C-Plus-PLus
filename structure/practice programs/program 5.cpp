@@ -16,26 +16,53 @@ struct Marks
 
 int main()
 {
-    Marks s[5];
+    Marks s[2];
     float percen;
-    for(int i=0;i<5;i++)
+   cout<<"----------------------"<<endl;
+   cout<<"Enter Students Details "<<endl;
+   cout<<"----------------------"<<endl;
+    for(int i=0;i<2;i++)
     {
         
         cout<<"Enter "<<i+1<<" Student Name:";
         cin>>s[i].name;
         cout<<"Enter Marks of Each Student out of 100"<<endl;
+        
+        chem_marks:
         cout<<"Enter Chemistry Marks :";
         cin>>s[i].chem_marks;
-         cout<<"Enter Maths Marks :";
+        if(s[i].chem_marks>100 || s[i].chem_marks<0)
+        {
+            cout<<"Marks should be between 0 to 100,enter Chemistry marks again"<<endl;
+            goto chem_marks;
+        }    
+            
+        maths_marks:
+        cout<<"Enter Maths Marks :";
         cin>>s[i].maths_marks;
-         cout<<"Enter Physics Marks :";
+         if(s[i].maths_marks>100 || s[i].maths_marks<0)
+        {
+            cout<<"Marks should be between 0 to 100,enter Maths marks again"<<endl;
+            goto maths_marks;
+        }  
+        
+        phy_marks:
+        cout<<"Enter Physics Marks :";
         cin>>s[i].phy_marks;
+        if(s[i].phy_marks>100 || s[i].phy_marks<0)
+        {
+            cout<<"Marks should be between 0 to 100,enter Physics again"<<endl;
+            goto phy_marks;
+        }  
+        cout<<endl;
          
     }
     
     cout<<endl<<endl;
+    cout<<"-------------------------------------"<<endl;
     cout<<"Details & Percentage of All Students "<<endl;
-     for(int i=0;i<5;i++)
+    cout<<"-------------------------------------"<<endl;
+     for(int i=0;i<2;i++)
     {
          cout<<"Student Name : "<<s[i].name<<endl;
          cout<<"Chemistry Marks : : "<<s[i].chem_marks<<endl;
