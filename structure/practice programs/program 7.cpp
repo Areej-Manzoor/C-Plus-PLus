@@ -14,13 +14,13 @@ struct Customer
     char name[50];
 };
 
-void point1(Customer c[2]) // here structure variable recieved from main
+void point1(Customer c[11]) // here structure variable recieved from main
 {
    int p1_counter=0;
     cout<<"---------------------------------------------------------"<<endl;
     cout<<"Names of all the customers having balance less than $200 "<<endl;
     cout<<"---------------------------------------------------------"<<endl;
-     for(int i=0;i<2;i++)
+     for(int i=0;i<11;i++)
     {
       if(c[i].balance<200)
       {
@@ -38,13 +38,13 @@ void point1(Customer c[2]) // here structure variable recieved from main
        
 }    
 
-void point2(Customer c[2]) // here structure variable recieved from main
+void point2(Customer c[11]) // here structure variable recieved from main
 {
    int p2_counter=0;
     cout<<"-----------------------------------------------------------------------------------"<<endl;
     cout<<"Incremented balance details of all customer already having balance more than $1000 "<<endl;
     cout<<"-----------------------------------------------------------------------------------"<<endl;
-     for(int i=0;i<2;i++)
+     for(int i=0;i<11;i++)
     {
       if(c[i].balance>1000)
       {   
@@ -68,11 +68,11 @@ void point2(Customer c[2]) // here structure variable recieved from main
 
 int main()
 {
-    Customer c[2]; // here 11 records can be entered which are more than 10
+    Customer c[11]; // here 11 records can be entered which are more than 10
    cout<<"----------------------"<<endl;
    cout<<"Enter Customer Details "<<endl;
    cout<<"----------------------"<<endl;
-    for(int i=0;i<2;i++)
+    for(int i=0;i<11;i++)
     {
         cout<<"Customer "<<i+1<<endl;
         cout<<"Enter Customer Name : ";
