@@ -80,7 +80,7 @@ for(int i=0;i<count;i++)
 void bookByTitle(Library lib[9])
 {
   char title[60];
-  int title_counter=0;
+  int title_counter=;
   cout<<"\t\t\t\t\t\t\t *************************************************"<<endl;
   cout<<"\t\t\t\t\t\t\t * \t Books of a Particular Title \t *"<<endl;
   cout<<"\t\t\t\t\t\t\t *************************************************"<<endl; 
@@ -95,7 +95,7 @@ for(int i=0;i<count;i++)
     title_counter++;
     }
 } 
-cout<<"\t\t\t\t\t\t\t There are total "<<title_counter<<" books titled '"<<title<<"'."<<endl;
+cout<<"\t\t\t\t\t\t\t There are total "<<title_counter<<"books titled '"<<title<<"'."<<endl;
 } 
 
 void totalBooks()
@@ -183,12 +183,6 @@ int main()
     goto menu;
     break;
     case 4:
-    bookByTitle(lib);
-    cout<<count+1; 
-    cout<<"\t\t\t\t\t\t\t Press 'Y' or 'y' to go back to the main menu :";
-    cin>>menu_redirect;
-    if(menu_redirect=='Y' || menu_redirect=='y')
-    goto menu;
     break;
     case 5:
     totalBooks();
@@ -253,7 +247,6 @@ int main()
 
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
-
 
 
 
