@@ -16,12 +16,12 @@ struct Marks
 
 int main()
 {
-    Marks s[2];
+    Marks s[5];
     float percen;
    cout<<"----------------------"<<endl;
    cout<<"Enter Students Details "<<endl;
    cout<<"----------------------"<<endl;
-    for(int i=0;i<2;i++)
+    for(int i=0;i<5;i++)
     {
         
         cout<<"Enter "<<i+1<<" Student Name:";
@@ -62,7 +62,7 @@ int main()
     cout<<"-------------------------------------"<<endl;
     cout<<"Details & Percentage of All Students "<<endl;
     cout<<"-------------------------------------"<<endl;
-     for(int i=0;i<2;i++)
+     for(int i=0;i<5;i++)
     {
          cout<<"Student Name : "<<s[i].name<<endl;
          cout<<"Chemistry Marks : : "<<s[i].chem_marks<<endl;
