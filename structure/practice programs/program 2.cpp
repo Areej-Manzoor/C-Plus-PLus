@@ -15,7 +15,10 @@ struct Student
 
 int main()
 {
-    Student s[2];
+    Student s[25];
+cout<<"----------------------"<<endl;
+   cout<<"Enter Students Details "<<endl;
+   cout<<"----------------------"<<endl;
     for(int i=0;i<25;i++)
     {
         cout<<i<<endl;
@@ -32,8 +35,10 @@ int main()
         
     }
     
-    cout<<endl<<endl;
+    cout<<endl;
+    cout<<"--------------------------------------------------------------"<<endl;
     cout<<"Details of students who have failed in more than one subjects "<<endl;
+    cout<<"--------------------------------------------------------------"<<endl;
      for(int i=0;i<25;i++)
     {
       if((s[i].marks1<40 && s[i].marks2<40 ) || (s[i].marks2<40 && s[i].marks3<40 ) || (s[i].marks3<40 && s[i].marks1<40 ))
