@@ -13,8 +13,8 @@ int main()
  ptr=arr;
  for(int i=0;i<n;i++)
  {
-  cout<<"Enter firsl element : ";
-  cin>>ptr[i];
+  cout<<"Enter "<<i+1<<" element : ";
+  cin>>arr[i];
  }     
  
  cout<<"Elements in array are as follows: "<<endl;
