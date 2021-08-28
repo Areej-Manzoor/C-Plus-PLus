@@ -2,6 +2,7 @@
 using namespace std;
 
 // PROBLEM : Write a program in C++ to store n elements in an array and print the elements using pointer
+
 #define MAX_SIZE 100 //constant
 int main()
 {
