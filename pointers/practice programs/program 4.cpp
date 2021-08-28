@@ -1,5 +1,4 @@
 #include <iostream>
-#include<cstring>
 using namespace std;
 
 // PROBLEM : Write a program in C to add numbers using call by reference
