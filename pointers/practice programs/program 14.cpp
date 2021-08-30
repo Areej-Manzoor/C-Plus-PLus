@@ -31,6 +31,7 @@ int main()
        }   
       *ptr++;
    }
+
  if(flag==0)
  cout<<find<<" does not exist in array ";
 }
