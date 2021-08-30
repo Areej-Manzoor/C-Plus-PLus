@@ -72,11 +72,14 @@ int main()
    
    printArrays(f_arr,s_arr,n);
    cout<<endl;
+
    swapArrays(f_arr,s_arr,n);
    cout<<endl;
+
    cout<<"----------------------"<<endl;
    cout<<"ARRAYS BEFORE SWAPPING "<<endl;
    cout<<"----------------------"<<endl;
-  printArrays(f_arr,s_arr,n);
+
+   printArrays(f_arr,s_arr,n);
 }
 
