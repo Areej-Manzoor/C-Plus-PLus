@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// PROBLEM : Write a program in C to find the maximum number between two numbers using a pointer
+// PROBLEM : Write a program in C++ to find the maximum number between two numbers using a pointer
 
 // METHOD 1
 
