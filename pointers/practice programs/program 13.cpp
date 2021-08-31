@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// PROBLEM : Write a C program to swap two arrays using pointers.
+// PROBLEM : Write a C++ program to swap two arrays using pointers.
 
 #define MAX_SIZE 100
 
