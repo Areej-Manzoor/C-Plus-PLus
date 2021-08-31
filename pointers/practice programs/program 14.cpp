@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// PROBLEM : Write a C program to search an element in array using pointers.
+// PROBLEM : Write a C++ program to search an element in array using pointers.
 
 int main()
 {
