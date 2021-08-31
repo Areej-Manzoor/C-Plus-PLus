@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// PROGRAM : Write a program in C to show a pointer to union
+// PROGRAM : Write a program in C++ to show a pointer to structure
 
 struct Book
 {
@@ -15,9 +15,7 @@ int main()
    
 cout<<*b.ptr;
 
-    
-  
-   return 0;
+ return 0;
 }
 
 
