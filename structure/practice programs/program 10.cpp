@@ -8,7 +8,6 @@ struct Book
  int BookID,pages;
  float price;
 };
-
 int main()
 {
    Book b[2];
