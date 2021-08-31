@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// PROBLEM : Write a program in C to add numbers using call by reference
+// PROBLEM : Write a program in C++ to add numbers using call by reference
 
 // METHOD 1
 
