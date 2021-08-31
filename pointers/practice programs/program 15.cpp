@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// PROBLEM : Write a C program to find length of string using pointers.
+// PROBLEM : Write a C++ program to find length of string using pointers.
 
 int main()
 {
