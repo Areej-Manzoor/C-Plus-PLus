@@ -12,8 +12,7 @@ int main()
 {
    Book b;
    b.ptr=&b.BookID;
-   
-cout<<*b.ptr;
+   cout<<*b.ptr;
 
  return 0;
 }
