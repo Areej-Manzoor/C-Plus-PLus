@@ -2,7 +2,7 @@
 #include <cstring>
 using namespace std;
 
-// PROBLEM : Write a program in C to swap elements using call by reference. Go to the editor
+// PROBLEM : Write a program in C++ to swap elements using call by reference. Go to the editor
 // Test Data :
 // Input the value of 1st element : 5
 // Input the value of 2nd element : 6
