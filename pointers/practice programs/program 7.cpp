@@ -2,7 +2,7 @@
 #include <cstring>
 using namespace std;
 
-// PROBLEM : Write a program in C to print all permutations of a given string using pointers
+// PROBLEM : Write a program in C++ to print all permutations of a given string using pointers
 
 int main()
 {
