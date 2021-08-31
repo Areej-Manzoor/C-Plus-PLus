@@ -2,7 +2,7 @@
 #include <cstring>
 using namespace std;
 
-// PROBLEM : Write a program in C to count the number of vowels and consonants in a string using a pointer
+// PROBLEM : Write a program in C++ to count the number of vowels and consonants in a string using a pointer
 
 int main()
 {
