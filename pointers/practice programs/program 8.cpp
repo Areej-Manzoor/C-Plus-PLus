@@ -2,7 +2,7 @@
 #include <cstring>
 using namespace std;
 
-// PROBLEM : Write a program in C to find the largest element using Dynamic Memory Allocation
+// PROBLEM : Write a program in C++ to find the largest element using Dynamic Memory Allocation
 
 int main()
 {
