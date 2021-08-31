@@ -2,7 +2,7 @@
 #include <cstring>
 using namespace std;
 
-// PROBLEM : Write a program in C to Calculate the length of the string using a pointer.
+// PROBLEM : Write a program in C++ to Calculate the length of the string using a pointer.
 
 int main()
 {
