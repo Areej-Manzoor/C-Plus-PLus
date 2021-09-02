@@ -1,0 +1,78 @@
+#include <iostream>
+using namespace std;
+
+// Functions Example :Program 9.14 from it series c++ book | page:285
+int  gcd(int a , int b)
+{
+    int n,g;
+    if(a<b)
+    n=a;
+    else
+    n=b;
+    
+    for(int i=1;i<=n;i++)
+    {
+        if(a%i==0 && b%i==0)
+        g=i;
+    }
+    return g;
+    
+}
+int main()
+{
+  int a,b,g;
+  
+  cout<<"Enter first integer : ";
+  cin>>a;
+  cout<<"Enter second integer : ";
+  cin>>b;
+  g=gcd(a,b);
+  cout<<"Greatest common divisor : "<<g;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+
+
